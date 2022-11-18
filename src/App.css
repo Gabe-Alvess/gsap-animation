@@ -1,0 +1,40 @@
+* ::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  width: 100vw;
+  background-color: #eee;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 10vw;
+  border-bottom: 1px solid #666;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-weight: normal;
+  margin: 0;
+}
+
+.letter {
+  font-size: 15vw;
+  display: inline-block;
+}
